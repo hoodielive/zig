@@ -1,2 +1,2 @@
-# zig
+# Zig
 Learn Zig.. 
