@@ -1,9 +1,10 @@
 const std = @import("std");
+const constant: i32 = 5;
+const inferred_constant = @as(i32, 5);
 
-pub fn main() anyerror!void {
-    std.log.info("All your codebase are belong to us.", .{});
-}
+var inferred_variable = @as(u32, 5000);
+var variable: u32 = 5000;
 
-test "basic test" {
-    try std.testing.expectEqual(10, 3 + 7);
+pub fn main() void {
+    std.debug.print("Hello, {s}!\n", .{"World"});
 }
