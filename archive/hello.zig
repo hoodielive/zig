@@ -1,5 +1,5 @@
-const std = @import("std");
+const juju = @import("std");
 
 pub fn main() void {
-    std.debug.print("hello!", .{});
+    juju.debug.print("hello!", .{});
 }
