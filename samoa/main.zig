@@ -26,6 +26,9 @@ pub fn main() void {
     std.print(cArray);
     std.debug.print(length);
     std.debug.print(b);
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> a85b8fd858f23f286fbf89aad7450d59389c8600
 }
